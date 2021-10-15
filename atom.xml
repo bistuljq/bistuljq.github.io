@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://bistuljq.github.io/</id>
     <title>Gridea</title>
-    <updated>2021-10-15T15:25:33.181Z</updated>
+    <updated>2021-10-15T15:39:19.672Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://bistuljq.github.io/"/>
     <link rel="self" href="https://bistuljq.github.io/atom.xml"/>
@@ -10,6 +10,23 @@
     <logo>https://bistuljq.github.io/images/avatar.png</logo>
     <icon>https://bistuljq.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[My questions]]></title>
+        <id>https://bistuljq.github.io/post/my-questions/</id>
+        <link href="https://bistuljq.github.io/post/my-questions/">
+        </link>
+        <updated>2021-10-15T15:25:42.000Z</updated>
+        <content type="html"><![CDATA[<p>老师好，我是软工2002班的李佳奇。在这次创建博客的过程中，我遇到的配置的问题有两个。<br>
+1.我在使用Gridea软件来在Github网站搭建博客的过程中，遇到了不能同步的问题。<br>
+在查阅资料后，我知道了问题出在系统路径中没有我的用户名和邮箱信息。因此我在output文件夹，使用git命令自行添加邮箱地址和用户名，代码如下：</p>
+<p>配置邮箱</p>
+<p>git config --global user.email &quot;3055850273@qq.com&quot;<br>
+配置名称</p>
+<p>git config --global user.name &quot;bistuljq&quot;<br>
+从而解决了我的问题。</p>
+<p>2.我在GitHub网站中创建存储器时也遇到了问题，那就是由于我的用户名中有大写字母，创建时失败。之后我重新创建了账号，使用小写字母，解决了这个问题。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://bistuljq.github.io/post/hello-gridea/</id>
